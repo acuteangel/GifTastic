@@ -1,2 +1,3 @@
-# Row-1
 # GifTastic
+
+https://acuteangel.github.io/GifTastic/

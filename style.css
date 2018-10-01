@@ -1,0 +1,14 @@
+body, button{
+    margin: 10px;
+}
+
+#gifs-appear-here{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: auto;
+}
+
+img{    
+    max-width: 100%;
+    height: auto;
+}
