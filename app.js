@@ -45,14 +45,14 @@ $(document).ready(function () {
                 var p = $("<p>").text("Rating: " + results[i].rating);
     
                 var reactionImage = $("<img>");
-                reactionImage.attr("src", results[i].images.fixed_height.url);
+                reactionImage.attr("src", results[i].images.fixed_height_still.url);
                 reactionImage.attr("data-animate", results[i].images.fixed_height.url);
                 reactionImage.attr("data-still", results[i].images.fixed_height_still.url);
-                reactionImage.attr("data-state", "animate");
+                reactionImage.attr("data-state", "still");
                 reactionImage.attr("class", "gif")
     
-                reactionDiv.append(p);
-                reactionDiv.append(reactionImage);
+                reactionDiv.prepend(p);
+                reactionDiv.prepend(reactionImage);
     
                 $("#gifs-appear-here").prepend(reactionDiv);
             }
