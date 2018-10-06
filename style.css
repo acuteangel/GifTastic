@@ -1,5 +1,7 @@
-body, button{
+body{
     margin: 10px;
+    background-color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #gifs-appear-here{
@@ -11,4 +13,9 @@ body, button{
 img{    
     max-width: 100%;
     height: auto;
+}
+
+button, input {
+    background-color: lightblue;
+    margin: 10px;
 }
